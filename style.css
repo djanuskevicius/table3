@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: ubuntu;
+  border-collapse: collapse;
+}
+
+table {
+  margin: 20px auto;
+}
+
+th {
+  text-align: left;
+  width: 230px;
+  padding: 4px 3px;
+}
+
+td {
+  width: 160px;
+  padding: 4px 3px;
+}
+
+td, th {
+  border: 2px solid black;
+}
+
+tr:nth-of-type(5) {
+  background: orange;
+  color: white
+}
+
+tr:nth-of-type(6) {
+  background: Blue;
+  color: white
+}
+
+tr:nth-of-type(7) {
+  background: green;
+  color: white
+}
